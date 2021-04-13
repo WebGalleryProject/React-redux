@@ -2,6 +2,8 @@ import React from "react";
 
 import TodoListItem from "./todo-list-item";
 
+const justAValue = 'Some text'
+
 const TodoList = ({ todos }) => {
     const elements = todos.map((item) => {
 
